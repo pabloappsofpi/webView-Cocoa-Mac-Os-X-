@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11134"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="13771"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -673,7 +675,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="___WebView_get_Youtube_ID" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -683,12 +685,12 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="WebView Exercise" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
-			<connections>
+                        <connections>
                             <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
                         </connections>
                     </window>
@@ -703,11 +705,64 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="___WebView_get_Youtube_ID" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <wkWebView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PZf-It-cdd">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="250"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ubW-DR-F5P">
+                                <rect key="frame" x="428" y="242" width="58" height="32"/>
+                                <buttonCell key="cell" type="push" title="Go" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="q5g-Qh-hoK">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="M0A-PY-kIX">
+                                <rect key="frame" x="387" y="-7" width="99" height="32"/>
+                                <buttonCell key="cell" type="push" title="Save URL" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="98u-3F-G6j">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="saveUrl:" target="XfG-lQ-9wD" id="u1X-dK-Van"/>
+                                </connections>
+                            </button>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="55A-Zd-nYW">
+                                <rect key="frame" x="0.0" y="248" width="436" height="22"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="OXq-gc-L62">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="PZf-It-cdd" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="B3c-kf-oTF"/>
+                            <constraint firstAttribute="bottom" secondItem="ubW-DR-F5P" secondAttribute="bottom" constant="249" id="B3e-01-P1B"/>
+                            <constraint firstAttribute="trailing" secondItem="ubW-DR-F5P" secondAttribute="trailing" id="Eef-nE-CdA"/>
+                            <constraint firstAttribute="trailing" secondItem="55A-Zd-nYW" secondAttribute="trailing" constant="44" id="HqB-KM-6oF"/>
+                            <constraint firstAttribute="bottom" secondItem="M0A-PY-kIX" secondAttribute="bottom" id="LHX-bO-yqE"/>
+                            <constraint firstAttribute="trailing" secondItem="M0A-PY-kIX" secondAttribute="trailing" id="LnK-l8-j79"/>
+                            <constraint firstItem="55A-Zd-nYW" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="SNY-CW-A6D"/>
+                            <constraint firstItem="PZf-It-cdd" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="WAY-pZ-c9F"/>
+                            <constraint firstAttribute="bottom" secondItem="PZf-It-cdd" secondAttribute="bottom" id="oUb-8Q-fCZ"/>
+                            <constraint firstItem="ubW-DR-F5P" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="tPr-3g-rUj"/>
+                            <constraint firstItem="55A-Zd-nYW" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="uIB-zl-yg5"/>
+                            <constraint firstAttribute="trailing" secondItem="PZf-It-cdd" secondAttribute="trailing" id="wN1-bO-SPB"/>
+                            <constraint firstItem="M0A-PY-kIX" firstAttribute="top" secondItem="55A-Zd-nYW" secondAttribute="bottom" constant="227" id="yGU-zr-N8R"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="urlTextField" destination="55A-Zd-nYW" id="zzr-zC-BNC"/>
+                        <outlet property="webView" destination="PZf-It-cdd" id="4fK-hc-x4E"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -7,21 +7,34 @@
 //
 
 import Cocoa
+import WebKit
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var urlTextField: NSTextField!
+    @IBAction func saveUrl(_ sender: Any) {
+       let theUrl = webView.url!
+      //convert to string
+        let url = theUrl.absoluteString
+
+        self.urlTextField.stringValue = url
+    }
+    @IBOutlet weak var webView: WKWebView!
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        let myURL = URL(string:"https://www.apple.com")
+        let myRequest = URLRequest(url: myURL!)
+        webView.load(myRequest)
+        
     }
-
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
-        }
-    }
-
-
+    
+    
 }
+
+
+
+
+
 
