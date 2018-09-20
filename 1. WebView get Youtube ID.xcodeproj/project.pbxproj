@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDB3EB6B2153E5CA005A314B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3EB6A2153E5CA005A314B /* AppDelegate.swift */; };
+		FDB3EB6D2153E5CA005A314B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3EB6C2153E5CA005A314B /* ViewController.swift */; };
+		FDB3EB6F2153E5CA005A314B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB3EB6E2153E5CA005A314B /* Assets.xcassets */; };
+		FDB3EB722153E5CA005A314B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB3EB702153E5CA005A314B /* Main.storyboard */; };
+		FDB3EB7E2153E5CA005A314B /* ___WebView_get_Youtube_IDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3EB7D2153E5CA005A314B /* ___WebView_get_Youtube_IDTests.swift */; };
+		FDB3EB892153E5CA005A314B /* ___WebView_get_Youtube_IDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3EB882153E5CA005A314B /* ___WebView_get_Youtube_IDUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDB3EB7A2153E5CA005A314B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB3EB5F2153E5CA005A314B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB3EB662153E5CA005A314B;
+			remoteInfo = "1. WebView get Youtube ID";
+		};
+		FDB3EB852153E5CA005A314B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB3EB5F2153E5CA005A314B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB3EB662153E5CA005A314B;
+			remoteInfo = "1. WebView get Youtube ID";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDB3EB672153E5CA005A314B /* 1. WebView get Youtube ID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1. WebView get Youtube ID.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB3EB6A2153E5CA005A314B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDB3EB6C2153E5CA005A314B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDB3EB6E2153E5CA005A314B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDB3EB712153E5CA005A314B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDB3EB732153E5CA005A314B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB3EB742153E5CA005A314B /* ___WebView_get_Youtube_ID.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "___WebView_get_Youtube_ID.entitlements"; sourceTree = "<group>"; };
+		FDB3EB792153E5CA005A314B /* 1. WebView get Youtube IDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1. WebView get Youtube IDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB3EB7D2153E5CA005A314B /* ___WebView_get_Youtube_IDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___WebView_get_Youtube_IDTests.swift"; sourceTree = "<group>"; };
+		FDB3EB7F2153E5CA005A314B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB3EB842153E5CA005A314B /* 1. WebView get Youtube IDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1. WebView get Youtube IDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB3EB882153E5CA005A314B /* ___WebView_get_Youtube_IDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___WebView_get_Youtube_IDUITests.swift"; sourceTree = "<group>"; };
+		FDB3EB8A2153E5CA005A314B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB3EB642153E5CA005A314B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB3EB762153E5CA005A314B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB3EB812153E5CA005A314B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDB3EB5E2153E5CA005A314B = {
+			isa = PBXGroup;
+			children = (
+				FDB3EB692153E5CA005A314B /* 1. WebView get Youtube ID */,
+				FDB3EB7C2153E5CA005A314B /* 1. WebView get Youtube IDTests */,
+				FDB3EB872153E5CA005A314B /* 1. WebView get Youtube IDUITests */,
+				FDB3EB682153E5CA005A314B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB3EB682153E5CA005A314B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB3EB672153E5CA005A314B /* 1. WebView get Youtube ID.app */,
+				FDB3EB792153E5CA005A314B /* 1. WebView get Youtube IDTests.xctest */,
+				FDB3EB842153E5CA005A314B /* 1. WebView get Youtube IDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDB3EB692153E5CA005A314B /* 1. WebView get Youtube ID */ = {
+			isa = PBXGroup;
+			children = (
+				FDB3EB6A2153E5CA005A314B /* AppDelegate.swift */,
+				FDB3EB6C2153E5CA005A314B /* ViewController.swift */,
+				FDB3EB6E2153E5CA005A314B /* Assets.xcassets */,
+				FDB3EB702153E5CA005A314B /* Main.storyboard */,
+				FDB3EB732153E5CA005A314B /* Info.plist */,
+				FDB3EB742153E5CA005A314B /* ___WebView_get_Youtube_ID.entitlements */,
+			);
+			path = "1. WebView get Youtube ID";
+			sourceTree = "<group>";
+		};
+		FDB3EB7C2153E5CA005A314B /* 1. WebView get Youtube IDTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB3EB7D2153E5CA005A314B /* ___WebView_get_Youtube_IDTests.swift */,
+				FDB3EB7F2153E5CA005A314B /* Info.plist */,
+			);
+			path = "1. WebView get Youtube IDTests";
+			sourceTree = "<group>";
+		};
+		FDB3EB872153E5CA005A314B /* 1. WebView get Youtube IDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB3EB882153E5CA005A314B /* ___WebView_get_Youtube_IDUITests.swift */,
+				FDB3EB8A2153E5CA005A314B /* Info.plist */,
+			);
+			path = "1. WebView get Youtube IDUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDB3EB662153E5CA005A314B /* 1. WebView get Youtube ID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB3EB8D2153E5CA005A314B /* Build configuration list for PBXNativeTarget "1. WebView get Youtube ID" */;
+			buildPhases = (
+				FDB3EB632153E5CA005A314B /* Sources */,
+				FDB3EB642153E5CA005A314B /* Frameworks */,
+				FDB3EB652153E5CA005A314B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1. WebView get Youtube ID";
+			productName = "1. WebView get Youtube ID";
+			productReference = FDB3EB672153E5CA005A314B /* 1. WebView get Youtube ID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDB3EB782153E5CA005A314B /* 1. WebView get Youtube IDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB3EB902153E5CA005A314B /* Build configuration list for PBXNativeTarget "1. WebView get Youtube IDTests" */;
+			buildPhases = (
+				FDB3EB752153E5CA005A314B /* Sources */,
+				FDB3EB762153E5CA005A314B /* Frameworks */,
+				FDB3EB772153E5CA005A314B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB3EB7B2153E5CA005A314B /* PBXTargetDependency */,
+			);
+			name = "1. WebView get Youtube IDTests";
+			productName = "1. WebView get Youtube IDTests";
+			productReference = FDB3EB792153E5CA005A314B /* 1. WebView get Youtube IDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDB3EB832153E5CA005A314B /* 1. WebView get Youtube IDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB3EB932153E5CA005A314B /* Build configuration list for PBXNativeTarget "1. WebView get Youtube IDUITests" */;
+			buildPhases = (
+				FDB3EB802153E5CA005A314B /* Sources */,
+				FDB3EB812153E5CA005A314B /* Frameworks */,
+				FDB3EB822153E5CA005A314B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB3EB862153E5CA005A314B /* PBXTargetDependency */,
+			);
+			name = "1. WebView get Youtube IDUITests";
+			productName = "1. WebView get Youtube IDUITests";
+			productReference = FDB3EB842153E5CA005A314B /* 1. WebView get Youtube IDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDB3EB5F2153E5CA005A314B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Pablo Fabre";
+				TargetAttributes = {
+					FDB3EB662153E5CA005A314B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FDB3EB782153E5CA005A314B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDB3EB662153E5CA005A314B;
+					};
+					FDB3EB832153E5CA005A314B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDB3EB662153E5CA005A314B;
+					};
+				};
+			};
+			buildConfigurationList = FDB3EB622153E5CA005A314B /* Build configuration list for PBXProject "1. WebView get Youtube ID" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDB3EB5E2153E5CA005A314B;
+			productRefGroup = FDB3EB682153E5CA005A314B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB3EB662153E5CA005A314B /* 1. WebView get Youtube ID */,
+				FDB3EB782153E5CA005A314B /* 1. WebView get Youtube IDTests */,
+				FDB3EB832153E5CA005A314B /* 1. WebView get Youtube IDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB3EB652153E5CA005A314B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB3EB6F2153E5CA005A314B /* Assets.xcassets in Resources */,
+				FDB3EB722153E5CA005A314B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB3EB772153E5CA005A314B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB3EB822153E5CA005A314B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB3EB632153E5CA005A314B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB3EB6D2153E5CA005A314B /* ViewController.swift in Sources */,
+				FDB3EB6B2153E5CA005A314B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB3EB752153E5CA005A314B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB3EB7E2153E5CA005A314B /* ___WebView_get_Youtube_IDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB3EB802153E5CA005A314B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB3EB892153E5CA005A314B /* ___WebView_get_Youtube_IDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDB3EB7B2153E5CA005A314B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB3EB662153E5CA005A314B /* 1. WebView get Youtube ID */;
+			targetProxy = FDB3EB7A2153E5CA005A314B /* PBXContainerItemProxy */;
+		};
+		FDB3EB862153E5CA005A314B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB3EB662153E5CA005A314B /* 1. WebView get Youtube ID */;
+			targetProxy = FDB3EB852153E5CA005A314B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDB3EB702153E5CA005A314B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB3EB712153E5CA005A314B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDB3EB8B2153E5CA005A314B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDB3EB8C2153E5CA005A314B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		FDB3EB8E2153E5CA005A314B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "1. WebView get Youtube ID/___WebView_get_Youtube_ID.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "1. WebView get Youtube ID/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "crow.academy.---WebView-get-Youtube-ID";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		FDB3EB8F2153E5CA005A314B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "1. WebView get Youtube ID/___WebView_get_Youtube_ID.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "1. WebView get Youtube ID/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "crow.academy.---WebView-get-Youtube-ID";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		FDB3EB912153E5CA005A314B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "1. WebView get Youtube IDTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "crow.academy.---WebView-get-Youtube-IDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1. WebView get Youtube ID.app/Contents/MacOS/1. WebView get Youtube ID";
+			};
+			name = Debug;
+		};
+		FDB3EB922153E5CA005A314B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "1. WebView get Youtube IDTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "crow.academy.---WebView-get-Youtube-IDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1. WebView get Youtube ID.app/Contents/MacOS/1. WebView get Youtube ID";
+			};
+			name = Release;
+		};
+		FDB3EB942153E5CA005A314B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "1. WebView get Youtube IDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "crow.academy.---WebView-get-Youtube-IDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "1. WebView get Youtube ID";
+			};
+			name = Debug;
+		};
+		FDB3EB952153E5CA005A314B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "1. WebView get Youtube IDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "crow.academy.---WebView-get-Youtube-IDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "1. WebView get Youtube ID";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB3EB622153E5CA005A314B /* Build configuration list for PBXProject "1. WebView get Youtube ID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB3EB8B2153E5CA005A314B /* Debug */,
+				FDB3EB8C2153E5CA005A314B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB3EB8D2153E5CA005A314B /* Build configuration list for PBXNativeTarget "1. WebView get Youtube ID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB3EB8E2153E5CA005A314B /* Debug */,
+				FDB3EB8F2153E5CA005A314B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB3EB902153E5CA005A314B /* Build configuration list for PBXNativeTarget "1. WebView get Youtube IDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB3EB912153E5CA005A314B /* Debug */,
+				FDB3EB922153E5CA005A314B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB3EB932153E5CA005A314B /* Build configuration list for PBXNativeTarget "1. WebView get Youtube IDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB3EB942153E5CA005A314B /* Debug */,
+				FDB3EB952153E5CA005A314B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDB3EB5F2153E5CA005A314B /* Project object */;
+}
